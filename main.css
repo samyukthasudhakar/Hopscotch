@@ -4,6 +4,7 @@
 @import url(styles/rules.css);
 @import url(styles/categories.css);
 @import url(styles/questions.css);
+@import url(styles/score.css);
 
 *{
     font-family: 'DM Sans', sans-serif;

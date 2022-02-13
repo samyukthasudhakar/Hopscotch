@@ -23,3 +23,11 @@
     cursor:pointer;
     transform: translate3D(0,-1px,0) scale(1.03);
 }
+
+.correct-answer{
+    background-color: var(--clr-green);
+}
+
+.wrong-answer{
+    background-color: var(--clr-red);
+}

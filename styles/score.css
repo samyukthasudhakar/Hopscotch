@@ -1,0 +1,16 @@
+.score-container{
+    background-color: var(--secondary-clr);
+    border-radius: 1rem;
+    width:30rem;
+    height:27rem;
+    margin:auto;
+}
+
+.score-img{
+    margin:1rem 0;
+    width:10rem;
+}
+
+.mg-5{
+    margin:5rem;
+}
