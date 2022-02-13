@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap');
 
 @import url(styles/index.css);
+@import url(styles/rules.css);
 @import url(styles/categories.css);
 
 *{
