@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap');
+
+@import url(styles/index.css);
+@import url(styles/categories.css);
+
+*{
+    font-family: 'DM Sans', sans-serif;
+    padding:0;
+    margin:0;
+}
+
+.mg-1{
+    margin:1rem;
+}
+
+
+/*colors*/
+:root{
+    --primary-clr:#407BFF;
+    --secondary-clr:#c5d7ff;
+    --teritiary-clr:#d9e9fa;
+}
