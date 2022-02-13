@@ -3,6 +3,7 @@
 @import url(styles/index.css);
 @import url(styles/rules.css);
 @import url(styles/categories.css);
+@import url(styles/questions.css);
 
 *{
     font-family: 'DM Sans', sans-serif;

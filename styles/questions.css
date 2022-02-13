@@ -1,0 +1,25 @@
+.question-container{
+    margin:1rem 0;
+    text-align:left;
+    width:30rem;
+}
+
+.option-radio{
+    display:none;
+}
+
+.option-label{
+    background-color: var(--teritiary-clr);
+    border-radius:4px;
+    display: inline-block;
+    margin:8px 0;
+    padding:4px;
+    transition: all .5s ease;
+    width:100%;
+}
+
+.option-label:hover{
+    background-color: var(--secondary-clr);
+    cursor:pointer;
+    transform: translate3D(0,-1px,0) scale(1.03);
+}
