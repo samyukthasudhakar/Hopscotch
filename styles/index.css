@@ -1,53 +1,53 @@
 nav{
-    width:10rem;
+    width: 10rem;
 }
 
 .icon-img{
-    width:1.5rem;
+    width: 1.5rem;
 }
 
 .intro-container{
-   justify-content:space-around;
-   max-width:100%
+   justify-content: space-around;
+   max-width: 100%
 }
 
 .intro-text{
-    height:14rem;
-    margin:1rem;
-    margin-left:4rem;
-    width:30rem;
+    height: 14rem;
+    margin: 1rem;
+    margin-left: 4rem;
+    width: 30rem;
 }
 
 .intro-img{
-    width:26.5rem;
+    width: 26.5rem;
 }
 
 .text-highlight{
-    color:var(--primary-clr);
+    color: var(--clr-primary);
 }
 
 .link-btn{
-    background-color: var(--primary-clr);
-    border:none;
-    border-radius:3px;
-    color:var(--clr-white);
-    font-size:1rem;
-    margin:1rem 0;
-    padding:8px;
-    width:fit-content;
+    background-color: var(--clr-primary);
+    border: none;
+    border-radius: 3px;
+    color: var(--clr-white);
+    font-size: 1rem;
+    margin: 1rem 0;
+    padding: 8px;
+    width: fit-content;
 }
 
 .link-btn:hover{
-    color:var(--clr-white);
+    color: var(--clr-white);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 a:hover, i:hover{
-    color:var(--primary-clr);
+    color: var(--clr-primary);
 }
 
 footer{
-    bottom:0;
-    position:fixed;
-    width:100%;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }

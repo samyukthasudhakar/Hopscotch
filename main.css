@@ -8,18 +8,18 @@
 
 *{
     font-family: 'DM Sans', sans-serif;
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 }
 
 .mg-1{
-    margin:1rem;
+    margin: 1rem;
 }
 
 
 /*colors*/
 :root{
-    --primary-clr:#407BFF;
-    --secondary-clr:#c5d7ff;
-    --teritiary-clr:#d9e9fa;
+    --clr-primary: #407BFF;
+    --clr-secondary: #c5d7ff;
+    --clr-tertiary: #d9e9fa;
 }
