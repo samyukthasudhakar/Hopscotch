@@ -1,5 +1,13 @@
 .rules-container{
-    height: 70vh;
+    justify-content: center;
+    border-radius: 3px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 80vh;
+    padding: 8px 2rem;
     text-align: justify;
     width: 30rem;
+}
+
+.rules{
+    height:45vh;
 }
