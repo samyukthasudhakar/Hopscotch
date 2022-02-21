@@ -14,3 +14,9 @@
 .mg-5{
     margin: 5rem;
 }
+
+@media (max-width:460px){
+    .score-container{
+        width: 80%;
+    }
+}
