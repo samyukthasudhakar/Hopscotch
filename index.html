@@ -10,40 +10,39 @@
     <title>Quiz App | Home</title>
 </head>
 <body>
-    <header class="flex-space-btwn header-container">
+    <header class="flex-space-btwn flex-center header-container">
         <div class="flex-center">
             <h3 class="text-highlight">HopScotch</h3>
         </div>
-
-        <nav class="flex-layout flex-space-btwn">
-            <a class="mg-rl-1"  href="index.html"><img class="icon-img" src="assets/images/home.png" title="Home" alt="home icon image"></a>
-            <a class="mg-rl-1"  href="rules.html"><img class="icon-img" src="assets/images/rules.png" title="Rules" alt="rules icon image"></a>
-            <a class="mg-rl-1"  href="categories.html"><img class="icon-img" src="assets/images/menu.png" title="Categories" alt="categories icon image"></a>
-            <a class="mg-rl-1"  href="login.html"><img class="icon-img" src="assets/images/user.png" title="Profile" alt="user icon image"></a>
+        <button class="menu-btn"><i class="fa fa-bars"></i></button>
+        <nav class="nav-pill-container flex-layout flex-center flex-space-btwn">
+            <a class="mg-rl-1 txt-md a-link nav-link"  href="index.html">Home</a>
+            <a class="mg-rl-1 txt-md a-link nav-link"  href="rules.html">Rules</a>
+            <a class="mg-rl-1 txt-md a-link nav-link"  href="categories.html">Categories</a>
+            <button id="toggle-btn" class="mg-rl-1 btn-img" value="dark-mode"><img src="assets/images/dark_mode.svg"></a>
         </nav>
     </header>
 
     <div class="flex-layout flex-center intro-container">
+        <img class="intro-img" src="assets/images/creativity-animate.svg" alt="hero image">
         <div class="flex-col-space-btwn intro-text">
             <h1>🥇Quiz App</h1>
             <h2>Unlocking knowledge at the speed of thought.</h2>
             <a class="link-btn" href="categories.html">Get Started !</a>
-        </div>
-        <div>
-            <img class="intro-img" src="assets/images/creativity-animate.svg" alt="hero image">
         </div>
     </div>
 
 
     <footer class="flex-layout flex-center flex-space-btwn">
         <div>
-            <span>made with ❤️ by  <a class="txt-md" href="https://github.com/samyukthasudhakar  ">Samyuktha Sudhakar</a></span>
+            <span>made with ❤️ by  <a class="txt-md" href="https://github.com/samyukthasudhakar">Samyuktha Sudhakar</a></span>
         </div>
         <div>
-            <a class="footer-icon" href=""><i class="fa fa-linkedin"></i></a>
-            <a class="footer-icon" href=""><i class="fa fa-twitter"></i></a>
-            <a class="footer-icon" href=""><i class="fa fa-github"></i></a>
+            <a class="footer-icon a-link" href=""><i class="fa fa-linkedin"></i></a>
+            <a class="footer-icon a-link" href=""><i class="fa fa-twitter"></i></a>
+            <a class="footer-icon a-link" href="https://github.com/samyukthasudhakar"><i class="fa fa-github"></i></a>
         </div>
     </footer>
+    <script src="app.js"></script>
 </body>
 </html>
