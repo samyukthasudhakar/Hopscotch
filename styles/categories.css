@@ -31,6 +31,10 @@
     transition: all .5s ease;
 }
 
+.mg-t-1{
+    margin-top: 1rem;
+}
+
 @media (max-width:940px){
     .category-container{
         width: 100%;
