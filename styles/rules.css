@@ -11,3 +11,9 @@
 .rules{
     height:45vh;
 }
+
+@media (max-width:940px){
+    .rules-container{
+        width: 95%;
+    }
+}

@@ -31,3 +31,9 @@
 .wrong-answer{
     background-color: var(--clr-red);
 }
+
+@media (max-width:940px){
+    .question-container{
+        width: 90%;
+    }
+}

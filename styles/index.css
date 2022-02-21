@@ -2,13 +2,18 @@ nav{
     width: 15rem;
 }
 
+.menu-icon{
+    display:none;
+}
+
 .icon-img{
     width: 1.5rem;
 }
 
 .intro-container{
    justify-content: space-around;
-   max-width: 100%
+   width: 100% ;
+   max-width:auto;
 }
 
 .intro-text{
@@ -46,6 +51,13 @@ a, a:hover, i:hover{
     color:var(--clr-primary);
 }
 
+.nav-pill{
+    display: inline;
+    list-style: none;
+    margin: 0 4px;
+}
+
+
 footer{
     bottom: 0;
     position: fixed;
@@ -55,4 +67,64 @@ footer{
 .btn-img{
     background-color:transparent;
     border:none;
+}
+
+
+@media (max-width:460px){
+    .parent-container{
+        width: 90%;
+        overflow-x: hidden;
+        margin: 1rem;
+        padding: 0;
+    }
+
+    .header-container{
+        width: 95%;
+        margin: 1rem;
+        padding:1rem;
+        justify-content: space-between;
+    }
+    nav{
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 3rem;
+    }
+    .menu-icon{
+        display:inline;
+    }
+
+    .nav-pill-container{
+        display: none;
+    }
+
+    .intro-container{
+        width: 80%;
+        flex-direction: column;
+        margin: 1.5rem;
+    }
+
+    .intro-img{    
+        width: 20rem;
+        margin-left: 1rem;
+    }
+
+    .intro-text{
+        font-size: 0.8rem;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    footer{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        position: static;
+        width:20rem;
+        margin: 1rem;
+        padding: 0;
+    }
 }
