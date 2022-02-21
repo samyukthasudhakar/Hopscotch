@@ -102,7 +102,6 @@ footer{
         border: none;
         font-size: 1rem;
     }
-
     .nav-pill-container{
         top:4.5rem;
         right: 4px;
@@ -116,8 +115,8 @@ footer{
         justify-content: center;
         align-items: center;
         display: none;
-
     }
+    
     .nav-link {
         color: var(--clr-black);
         padding: 12px 16px;
